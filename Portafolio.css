@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    background-color:blue;
+    padding: 12px 15px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    padding: 1px;
+    
+}
+
+nav li{
+    list-style: None;
+    
+}
+.m_horizontal{
+    display: flex;
+}
+
+.m_horizontal> li{
+    margin: 0 30px;
+    font-size: 23px;
+    
+}
+
+.m_horizontal > li > a{
+    display: a;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(0, 2, 3);
+    transition: box-shadow 0.4s ease;
+}
+
+
+
+.m_horizontal{
+    color: wheat;
+    text-decoration: none;
+}
+
+.m_horizontal > li > a:hover{
+    background-color: rgba(252, 0, 42, 0.932);
+    color: rgb(228, 219, 219);
+    border-radius: 18px;
+    box-shadow: 2px 1px 27px rgba(243, 25, 72, 0.781);
+}
+
+.m_vertical {
+    display: none;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    
+}
+
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+.m_vertical a{
+    margin: 6px;
+    position: relative;
+    top: 18px;
+    right: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(209, 95, 29);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;   
+}
+
+
+
+.in{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.in div h1{
+    color: blanchedalmond ;
+    text-align: center;
+    font-size: 50px;
+}
+.in div p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sec2{
+    padding: 1px;
+}
+
+.sec2 h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.Proyectos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Proyectos img{
+    width: 260px;
+    height: 170px;
+    border-radius: 13px ;
+}
+
+.proyecto{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15px;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto:hover{
+    box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.527);
+}
+
+.form{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.formulario{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 232, 241);
+    padding: 1px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+}
+input{
+    margin: 10px;
+    padding: 13px;
+    border-radius: 9px ;
+}
+
+button{
+    margin: 10px;
+    padding: 13px;
+    border-radius: 9px;
+    background-color: rgb(0, 26, 255);
+    color: aliceblue;
+}
+ footer{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+    padding: 18px;
+ }
